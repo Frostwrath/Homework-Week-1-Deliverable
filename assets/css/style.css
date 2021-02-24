@@ -1,0 +1,239 @@
+/*Makes all boxes on the page bordered*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+/*Sets the default background colour*/
+body {
+    background-color: #d9dcd6;
+}
+
+/*changes the font, background colour and text colour in headers*/
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/*Styles h1 tags*/
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/*changes the colour of text for the letters "seo" in "Horiseon"*/
+header h1 .seo {
+    color: #d9dcd6;
+}
+
+
+/*sets the font for the header, as well as the size*/
+header section {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/*removes the list points from the navbar list*/
+header section ul {
+    list-style-type: none;
+}
+
+/*correctly displays the page links in the navbar*/
+header section ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+
+/*Sets the colour for links within the site to white*/
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+/*Ensures the font size in paragraphs is consistant*/
+p {
+    font-size: 16px;
+}
+
+
+/*Displays the main image for the site, in a manner tha it correctly fits on screens of most sizes*/
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/*Makes all items with the .float_left tag sit to the left*/
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/*Makes all items with the .float_right tag sit to the right*/
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/*Makes items with the .content tag take less space on the screen and bear slightly right*/
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/*Within the "Search engine optimisation" section, changes the font, background colour and text colour*/
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/*Within the "Online Reputation Management" section, changes the font, background colour and text colour*/
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/*Within the "Social Media Marketing" section, changes the font, background colour and text colour*/
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/*Ensures that the image displays correctly*/
+.search-engine-optimization img {
+    max-height: 200px;
+}
+
+/*Ensures that the image displays correctly*/
+.online-reputation-management img {
+    max-height: 200px;
+}
+
+/*Ensures that the image displays correctly*/
+.social-media-marketing img {
+    max-height: 200px;
+}
+
+/*Gives the header for Search Engine Optimisation a font size of 36 and a margin at the bottom*/
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/*Gives the header for Online reputation management a font size of 36 and a margin at the bottom*/
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/*Gives the header for Social media marketing a font size of 36 and a margin at the bottom*/
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/*Changes the font size of the footer heading to 20*/
+footer h2 {
+    font-size: 20px;
+}
+
+/*Places the benefits in the correct place, and changes the font and background colour*/
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/*Changes the text colour and adds a margin at the bottom*/
+.benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/*Changes the text colour and adds a margin at the bottom*/
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/*Changes the text colour and adds a margin at the bottom*/
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/*Aligns the text to the center and adds a margin at the bottom*/
+.benefit-lead h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/*Aligns the text to the center and adds a margin at the bottom*/
+.benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/*Aligns the text to the center and adds a margin at the bottom*/
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/*Ensures that the image displays correctly*/
+.benefit-lead img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/*Ensures that the image displays correctly*/
+.benefit-brand img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/*Ensures that the image displays correctly*/
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/*Ensures the footer displays correctly*/
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
